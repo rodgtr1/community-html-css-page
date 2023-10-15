@@ -12,7 +12,7 @@ Create features section [yourhandle]
 
 ### 3 Photo Section
 
-Create 3 photo section [yourhandle]
+Create 3 photo section [Joseph]
 
 ### Services section
 
