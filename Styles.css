@@ -16,9 +16,10 @@ h2 {
 button {
     background-color: orange;
     color: #000000;
-    border: 2px solid;
+    border: none;
     padding: 1em 2em;
     font-size: 0.8em;
+    font-weight: bold;
     transition: color 0.22s, border-color 0.25s, box-shadow 0.25s,
         transform 0.25s;
     border-radius: 10%;
