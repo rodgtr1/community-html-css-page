@@ -2,6 +2,14 @@ html {
     font-size: 15px;
     font-family: "Roboto", sans-serif;
 }
+
+nav {
+    height: 15px;
+    width: 0 auto;
+    padding: 2em 1em;
+    background-color: rgb(251, 246, 246);
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -9,16 +17,47 @@ body {
 span {
     color: blue;
 }
+.features span {
+    color: rgb(255, 200, 0);
+}
+.Pic_section2 span {
+    color: rgb(255, 200, 0);
+}
+.Pic_section3 span {
+    color: rgb(255, 200, 0);
+}
+
+.about {
+    text-align: center;
+}
+.about span {
+    color: rgb(255, 200, 0);
+}
 
 h2 {
     color: blue;
 }
+
+.features {
+    text-align: center;
+}
+.services {
+    text-align: center;
+}
+.services span {
+    color: rgb(255, 200, 0);
+}
+
+/* .footer {
+    text-align: center;
+} */
+
 button {
     background-color: orange;
     color: #000000;
     border: none;
-    padding: 1em 2em;
-    font-size: 0.8em;
+    padding: 0.5em 1em;
+    font-size: 0.9em;
     font-weight: bold;
     transition: color 0.22s, border-color 0.25s, box-shadow 0.25s,
         transform 0.25s;
@@ -27,9 +66,9 @@ button {
 
 button:hover {
     border-color: #f1ff5c;
-    color: rgb(169, 6, 6);
+    color: rgb(247, 247, 247);
     box-shadow: 0 0.5em 0.5em -0.4em #d9e833;
-    transform: translateY(-0.75em);
+    transform: translateX(0.75em);
     cursor: pointer;
 }
 
