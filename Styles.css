@@ -1,9 +1,38 @@
 html {
     font-size: 15px;
+    font-family: "Roboto", sans-serif;
 }
 body {
     background-color: rgb(255, 255, 255);
 }
+
+span {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+}
+button {
+    background-color: orange;
+    color: #000000;
+    border: none;
+    padding: 1em 2em;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition: color 0.22s, border-color 0.25s, box-shadow 0.25s,
+        transform 0.25s;
+    border-radius: 10%;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: rgb(169, 6, 6);
+    box-shadow: 0 0.5em 0.5em -0.4em #d9e833;
+    transform: translateY(-0.75em);
+    cursor: pointer;
+}
+
 /* .photo_section {
     height: 700px;
     width: 80%;
