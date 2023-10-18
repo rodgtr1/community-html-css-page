@@ -18,6 +18,11 @@ span {
     color: blue;
 }
 
+img {
+    max-width: 50%;
+    height: auto;
+}
+
 .pic_section1 {
     width: 700px;
 }
