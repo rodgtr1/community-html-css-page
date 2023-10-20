@@ -20,7 +20,7 @@ span {
 }
 
 img {
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -29,7 +29,7 @@ img {
 .section1 #pic1 {
     position: relative;
     left: 800px;
-    bottom: 200px;
+    bottom: 225px;
 }
 
 #pic1 {
@@ -43,6 +43,7 @@ img {
 
 .pic-section1 {
     width: 700px;
+    margin-left: 40px;
 }
 
 /* #pic-section1-paragraph {
@@ -71,19 +72,34 @@ img {
 }
 
 #pic-section2-paragraph {
-    margin-left: 800px;
+    position: relative;
+    left: 700px;
+    bottom: 225px;
 }
+
+/* <!-- section3 pic and text section --> */
 
 .Pic_section3 span {
     color: rgb(255, 200, 0);
 }
 
 #pic-section3-paragraph {
-    width: 700px;
+    width: 500px;
 }
+
+#pic3 {
+    position: relative;
+    left: 800px;
+    bottom: 225px;
+}
+
+/* <!-- section4  pic and text section --> */
 
 #pic-section4-paragraph {
     width: 700px;
+    position: relative;
+    left: 700px;
+    bottom: 225px;
 }
 
 .about {
@@ -131,6 +147,7 @@ button {
     transition: color 0.22s, border-color 0.25s, box-shadow 0.25s,
         transform 0.25s;
     border-radius: 10%;
+    margin-left: 40px;
 }
 
 button:hover {
