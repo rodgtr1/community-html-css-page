@@ -2,6 +2,14 @@ html {
     font-size: 15px;
     font-family: "Roboto", sans-serif;
 }
+
+nav {
+    height: 15px;
+    width: 0 auto;
+    padding: 2em 1em;
+    background-color: rgb(251, 246, 246);
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -10,15 +18,79 @@ span {
     color: blue;
 }
 
+.pic_section1 {
+    width: 700px;
+}
+
+#pic-section1-paragraph {
+    width: 700px;
+}
+
+#group-pic-1 {
+    justify-content: right;
+}
+
+.features span {
+    color: rgb(255, 200, 0);
+}
+.pic_section2 span {
+    color: rgb(255, 200, 0);
+}
+
+#pic-section2-paragraph {
+    margin-left: 800px;
+}
+
+.Pic_section3 span {
+    color: rgb(255, 200, 0);
+}
+
+#pic-section3-paragraph {
+    width: 700px;
+}
+
+#pic-section4-paragraph {
+    width: 700px;
+}
+
+.about {
+    text-align: center;
+    background-color: rgb(251, 246, 246);
+}
+.about span {
+    color: rgb(255, 200, 0);
+}
+
 h2 {
     color: blue;
 }
+
+.features {
+    text-align: center;
+    margin: auto;
+    /* margin-left: 300px;
+    margin-right: 700px; */
+}
+.services {
+    text-align: center;
+    margin: auto;
+    /* margin-left: 300px;
+    margin-right: 700px; */
+}
+.services span {
+    color: rgb(255, 200, 0);
+}
+
+/* .footer {
+    text-align: center;
+} */
+
 button {
     background-color: orange;
     color: #000000;
     border: none;
-    padding: 1em 2em;
-    font-size: 0.8em;
+    padding: 0.5em 1em;
+    font-size: 0.9em;
     font-weight: bold;
     transition: color 0.22s, border-color 0.25s, box-shadow 0.25s,
         transform 0.25s;
@@ -27,9 +99,9 @@ button {
 
 button:hover {
     border-color: #f1ff5c;
-    color: rgb(169, 6, 6);
+    color: rgb(247, 247, 247);
     box-shadow: 0 0.5em 0.5em -0.4em #d9e833;
-    transform: translateY(-0.75em);
+    transform: translateX(0.75em);
     cursor: pointer;
 }
 
