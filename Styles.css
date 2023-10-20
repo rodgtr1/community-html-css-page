@@ -15,18 +15,31 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+#content {
+    padding: 0 40px;
+}
+
 span {
     color: blue;
 }
 
-img {
-    max-width: 40%;
-    height: auto;
+section {
+    margin-bottom: 80px;
 }
 
-/* <!-- section1 first pic and text section --> */
+.section-image {
+    width: 100%;
+    max-width: 450px;
+}
 
-.section1 #pic1 {
+/* img {
+    max-width: 40%;
+    height: auto;
+} */
+
+/* <!-- header first pic and text section --> */
+
+.header #pic1 {
     position: relative;
     left: 800px;
     bottom: 225px;
@@ -41,9 +54,27 @@ img {
     /* display: flex; */
 }
 
-.pic-section1 {
-    width: 700px;
-    margin-left: 40px;
+.pic-section1 button {
+    margin-left: 0px;
+}
+
+.pic-section1-text,
+.pic-section1-image,
+.pic-section2-text,
+.pic-section2-image,
+.pic-section3-text,
+.pic-section3-image {
+    display: inline-block;
+    width: 49.5%;
+    margin: 0 auto;
+    vertical-align: middle;
+    position: relative;
+}
+
+.pic-section1-image,
+.pic-section2-image,
+.pic-section3-image {
+    text-align: center;
 }
 
 /* #pic-section1-paragraph {
@@ -71,11 +102,11 @@ img {
     color: rgb(255, 200, 0);
 }
 
-#pic-section2-paragraph {
+/* #pic-section2-paragraph {
     position: relative;
     left: 700px;
     bottom: 225px;
-}
+} */
 
 /* <!-- section3 pic and text section --> */
 
@@ -83,7 +114,7 @@ img {
     color: rgb(255, 200, 0);
 }
 
-#pic-section3-paragraph {
+/* #pic-section3-paragraph {
     width: 500px;
 }
 
@@ -91,7 +122,7 @@ img {
     position: relative;
     left: 800px;
     bottom: 225px;
-}
+} */
 
 /* <!-- section4  pic and text section --> */
 
