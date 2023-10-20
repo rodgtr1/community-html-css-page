@@ -1,6 +1,7 @@
 html {
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Montserrat", sans-serif;
 }
 
 nav {
@@ -18,21 +19,53 @@ span {
     color: blue;
 }
 
-.pic_section1 {
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+/* <!-- section1 first pic and text section --> */
+
+.section1 #pic1 {
+    position: relative;
+    left: 800px;
+    bottom: 200px;
+}
+
+#pic1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    /* grid below this line */
+
+    /* display: flex; */
+}
+
+.pic-section1 {
     width: 700px;
 }
 
-#pic-section1-paragraph {
-    width: 700px;
-}
+/* #pic-section1-paragraph {
+    width: 500px;
+} */
 
 #group-pic-1 {
-    justify-content: right;
+    margin: 0 auto;
+    width: 90%;
+    height: 500%;
+    border: 4px;
+    display: inline-grid;
 }
 
 .features span {
     color: rgb(255, 200, 0);
 }
+
+/* #features-paragraph {
+    margin-left: 200em;
+    margin-right: 800em;
+} */
+
 .pic_section2 span {
     color: rgb(255, 200, 0);
 }
@@ -56,7 +89,10 @@ span {
 .about {
     text-align: center;
     background-color: rgb(251, 246, 246);
+    margin-left: 200px;
+    margin-right: 300px;
 }
+
 .about span {
     color: rgb(255, 200, 0);
 }
