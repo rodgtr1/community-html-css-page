@@ -26,13 +26,11 @@ img {
 
 /* <!-- section1 first pic and text section --> */
 
-/* .section1 {
-    margin: 0 auto;
-    width: 900px;
-    height: 900px;
-    display: grid;
-    grid-template-columns: 300px 300px;
-} */
+.section1 #pic1 {
+    position: relative;
+    left: 800px;
+    bottom: 200px;
+}
 
 #pic1 {
     margin: 0 auto;
@@ -48,7 +46,7 @@ img {
 }
 
 /* #pic-section1-paragraph {
-    width: 700px;
+    width: 500px;
 } */
 
 #group-pic-1 {
@@ -91,7 +89,10 @@ img {
 .about {
     text-align: center;
     background-color: rgb(251, 246, 246);
+    margin-left: 200px;
+    margin-right: 300px;
 }
+
 .about span {
     color: rgb(255, 200, 0);
 }
